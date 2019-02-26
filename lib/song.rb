@@ -8,8 +8,8 @@ class Song
   end 
   
   def add_songs(song)
-  #   @songs << song 
-  # end # 
+    @songs << song 
+   end 
   
   def self.new_by_filename(file)
     song_name = file.split(" - ")[1]
